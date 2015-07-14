@@ -1,0 +1,60 @@
+.login_button {
+    float: left;
+}
+
+.panel-default {
+    padding: 1%;
+}
+
+.grouped_content {
+    margin: 1% 1%;
+}
+
+.focus_area {
+    display: block;
+    margin: 1% 0;
+}
+
+.discovery_table {
+    table-layout:fixed; 
+    padding: 1% 1%;  
+}
+
+.discovery_table td {
+    word-wrap: break-word;
+    white-space: normal; 
+}
+
+
+.paging_full_numbers .ui-button {
+    padding: 1% 2%;
+    margin: 0;
+    cursor: pointer;
+    * cursor: hand;
+}
+
+
+ tr.selected_row td {
+    background:#F4A22B !important;
+    color:#FFFFFF;
+}
+
+#employees_table_processing {
+    font-size: 4em;
+    font-weight:bold;
+    font-style: italic;
+    opacity: 0.4;
+    color: red;
+}
+
+.required:after {
+    content:'*';
+    color:firebrick;
+    font-weight:bold;
+    vertical-align:top;
+}
+
+.required_key {
+    color:firebrick;
+    font-weight:bold;
+}
